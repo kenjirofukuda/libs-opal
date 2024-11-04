@@ -33,7 +33,7 @@ extern "C" {
 #endif
 
 /* Data Types */
-
+#ifndef CF_DEFINES_CGAFFINETRANSFORMCOMPONENTS
 typedef struct CGAffineTransform
 {
   CGFloat a;
@@ -43,6 +43,7 @@ typedef struct CGAffineTransform
   CGFloat tx;
   CGFloat ty;
 } CGAffineTransform;
+#endif
 
 /* Constants */
 

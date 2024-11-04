@@ -39,6 +39,7 @@ typedef NSRect CGRect;
 
 /* Constants */
 
+#ifndef CF_DEFINES_CG_TYPES
 enum
 {
   CGRectMinXEdge = 0,
@@ -46,6 +47,7 @@ enum
   CGRectMaxXEdge = 2,
   CGRectMaxYEdge = 3
 };
+#endif
 typedef int CGRectEdge;
 
 /** Point at 0,0 */
